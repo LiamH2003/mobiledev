@@ -18,14 +18,6 @@ const HomeScreen = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.heading}>Onze modellen</Text>
 
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate("Details")}
-      >
-        {" "}
-        <Text>Bekijk product</Text>
-      </TouchableOpacity>
-
       <ScrollView style={styles.cardContainer}>
         <View style={styles.row}>
           <ProductCard
